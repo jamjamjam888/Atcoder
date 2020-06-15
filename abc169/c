@@ -1,0 +1,7 @@
+from decimal import Decimal
+
+def main():
+  a,b = map(Decimal, input().split())
+  print(int(a*b))
+  
+main()
